@@ -57,6 +57,14 @@ section {
     max-width: 100%;
 }
 
+.project-card{
+    color: white;
+}
+.project-card:hover{
+    box-shadow: 25px 25px 10px 10px rgb(Black);
+}
+
+
 .img-card {
     max-width: 250px;
     position: absolute;
