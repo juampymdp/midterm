@@ -24,8 +24,11 @@ header {
 
 .nav-list li a {
     text-decoration: none;
-    color: #072AC8;
+    color:#6B708D;
     align-content: center;
+}
+.nav-list li a:hover {
+    color: #072AC8;
 }
 
 .abrir-menu,
