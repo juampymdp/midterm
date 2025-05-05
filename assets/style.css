@@ -1,9 +1,11 @@
 body {
-    font-family: ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:#F2F4FC;
 }
+    
 
 section {
-    margin-bottom: 150px !important;
+    margin-bottom: 150px;
 }
 
 

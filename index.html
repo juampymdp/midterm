@@ -5,25 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CIRCLE AGENCY</title>
     <link rel="stylesheet" href="/assets/style.css">
-    <link rel="stylesheet" href="/assets/footer.css">
+    <link rel="stylesheet" href="/assets/nav-bar-style.css">
     <link rel="icon" href="/assets/logos/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <script src="./scripts/scroll.js"></script>
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <body>
-        <header-component>
-            <header>
-                <nav class="navbar">
-                  <label class="navbar-toggle" id="js-navbar-toggle" for="chkToggle">
-                    <i class="fa fa-bars burger"></i>
-                  </label>
-                  <a class="logo" href="/">
-                    <img src="../assets/logos/circle.svg" alt="Circle Logo">
-                  </a>
-                  <input type="checkbox" id="chkToggle">
-                  <ul class="main-nav" id="js-menu">
+         <header>
+            <img src="../assets/logos/circle.svg" alt="Circle Logo">
+            <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+             <nav class="nav" id="nav">
+                <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+                <ul class="nav-list">
                     <li>
                       <a class="nav-links" href="/">Home</a>
                     </li>
@@ -33,11 +26,14 @@
                     <li>
                       <a class="nav-links" href="/#services">Services</a>
                     </li>
+                    <li>
+                    <a class="ContactBtn" href="/pages/contact.html">Contact us</a>
+                    </li>
                   </ul>
-                  <a class="btn capitalize" href="/pages/contact.html" id="menuBtn" style="display: none;">Contact us</a>
                 </nav>
               </header>
-        </header-component>
+
+
     
         <section class="hero">
             <div class="hero-content">
@@ -196,11 +192,10 @@
 
         </footer-component>
     
-        <script src="./scripts/projects.js"></script>
-        <script src="./scripts/scroll.js"></script>
-    </body>
+        <script src="./scripts/burger.js"></script>
+   
     
-    </html>
+
     
 </body>
 </html>
