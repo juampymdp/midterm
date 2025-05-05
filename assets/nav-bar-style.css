@@ -25,7 +25,7 @@ header {
 .nav-list li a {
     text-decoration: none;
     color: #072AC8;
-    justify-items: center;
+    align-content: center;
 }
 
 .abrir-menu,
@@ -33,6 +33,20 @@ header {
     display: none;
 }
 
+.ContactBtn {
+    background-color: #072AC8;
+    text-decoration: none;
+    border: 10px;
+    padding: 5px 20px;
+    font-size: large;
+    color: #ffffff;
+    border-radius: 10px;
+   
+}
+.ContactBtn:hover {
+    color:chocolate;
+
+}
 @media screen and (max-width: 550px) {
     .abrir-menu,
     .cerrar-menu {
@@ -44,7 +58,7 @@ header {
     }
 
     .abrir-menu {
-        color: #1c1c1c;
+        color: #072AC8;
     }
 
     .cerrar-menu {
